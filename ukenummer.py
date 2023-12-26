@@ -17,5 +17,4 @@ month = ["Januar", "Februar", "Mars", "April",
 
 
 print(f'Det er {results.text}')
-print(f'{days[day]}, {now.day}. {month[now.month]} {now.year}')
-
+print(f'{days[day]}, {now.day}. {month[now.month - 1]} {now.year}')
